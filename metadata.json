@@ -1,0 +1,7 @@
+{
+  "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
+  "Name": "бп1",
+  "Alias": "bp1",
+  "Database": "64e7ed88-38eb-415c-8a79-167ccef51fc0",
+  "Version": "3.5.677.0"
+}

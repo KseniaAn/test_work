@@ -1,0 +1,52 @@
+{
+  "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+  "Alias": "bp1",
+  "Kind": "Solution",
+  "State": "Active",
+  "Children": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "События",
+        "Kind": "Collection",
+        "State": "Suspend",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "OData интеграции",
+        "Kind": "Collection",
+        "State": "Suspend",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "Процессы",
+        "Kind": "Collection",
+        "State": "Active",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+              "Alias": "shp",
+              "Kind": "Process",
+              "State": "Active",
+              "Children": {
+                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+                "$values": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
